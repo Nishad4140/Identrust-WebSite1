@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf);
+}
+
+.top-nav{
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    height: 45px;
+    padding-left: 43%;
+    display: flex;
+    align-items: center;
+}
+.top-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto-Black,Arial,Verdana,sans-serif;
+    font-size: 12px;
+}
+.icon{
+    cursor: pointer;
+    display: inline;
+    margin-right: 5px;
+    color: #3888ce;
+}
+.icon:hover{
+    color: #ffffff;
+}
+.topnav-ops{
+    margin-left: 35px;
+}
